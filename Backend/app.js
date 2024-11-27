@@ -12,7 +12,7 @@ app.use("/books", router); // localhost:5000/books
 
 mongoose
   .connect(
-    "mongodb+srv://hritik1960be21:zvp3fYXXLJ12B0lT@cluster0.alq8rlv.mongodb.net/bookStore?retryWrites=true&w=majority"
+    "mongodb://localhost:27017/BOOKSTORE-MERN"
   )
   .then(() => console.log("Connected To Database"))
   .then(() => {
